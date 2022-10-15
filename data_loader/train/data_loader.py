@@ -41,4 +41,5 @@ class to_dataframe():
       elif mode == 'sentiment':
         encoder.fit('sentiment')
         self.df_data[2] = encoder.transform(self.df_data[2])
+        
       return self.df_data, encoder
