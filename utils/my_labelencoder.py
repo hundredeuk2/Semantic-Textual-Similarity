@@ -14,10 +14,12 @@ class my_labelencoder():
             for idx, dic in enumerate(self.entity_dict):
                 i2w[idx] = dic
                 w2i[dic] = idx
+
         elif mode == "sentiment":
             for idx, dic in enumerate(self.sentiment_dict):
                 i2w[idx] = dic
                 w2i[dic] = idx
+                
         self.i2w, self.w2i = i2w, w2i
     
     def transform(self, data):
