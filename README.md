@@ -1,3 +1,3 @@
 # corpus_compete
 
-![Sample Video](https://user-images.githubusercontent.com/73874591/201269099-03ace331-b982-4554-bcfd-13c03eae739c.mov)
+![STS_demo](https://user-images.githubusercontent.com/73874591/201269490-158b73f7-85c5-4c41-a39f-0a6099ce4c4d.gif)
