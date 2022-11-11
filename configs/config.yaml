@@ -1,0 +1,25 @@
+data:
+    raw_path: data/train_raw.csv
+    train_path: data/train.csv
+    valid_path: data/dev.csv
+    test_path: data/test.csv
+    submission_path : data/sample_submission.csv
+
+model:
+    model_name: monologg/koelectra-base-v3-discriminator
+    loss: mse_loss
+    metric: pearson_correlation_coefficient
+    optimizer: optim_Adam
+    model_class: EncoderModel
+    num_classes: 1
+    saved_name: electra_model
+
+train:
+    seed: 41
+    gpus: 1
+    batch_size: 8
+    max_epoch: 3
+    dropout_rate: 0.1
+    learning_rate: 1e-5
+    max_length: 128
+    logging_step: 1

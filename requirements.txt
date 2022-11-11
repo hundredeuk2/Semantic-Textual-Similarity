@@ -1,0 +1,7 @@
+transformers
+torch
+wandb
+omegaconf
+sklearn
+streamlit
+streamlit-chat
